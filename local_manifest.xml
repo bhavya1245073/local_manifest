@@ -15,24 +15,9 @@
 <!-- Common DT -->
       <project
         path="device/xiaomi/mt6768-common"
-        name="Asce-XOX/android_device_xiaomi_mt6768-common.git"
+        name="bhavya1245073/android_device_xiaomi_mt6768-common.git"
         remote="hub"
         revision="lineage-20" />  
-
-
-      <remove-project name="frameworks_av"/>
-      <project path="frameworks/av" 
-        name="Asce-XOX/Pe_frameworks_av.git" 
-        remote="github" 
-        revision="thirteen" 
-        clone-depth="1" />
-
-<remove-project name="frameworks_native"/>
- <project path="frameworks/native" name="Asce-XOX/Pe_frameworks_native.git" remote="github" revision="thirteen" clone-depth="1"/> 
-
-
-
-  
   
 <!-- VT -->
       <project 
