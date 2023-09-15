@@ -8,7 +8,7 @@
 <!-- Main DT -->
       <project
         path="device/xiaomi/lancelot" 
-        name="Asce-XOX/android_device_xiaomi_lancelot.git"
+        name="bhavya1245073/android_device_xiaomi_lancelot.git"
         remote="hub"
         revision="lineage-20" />
    
