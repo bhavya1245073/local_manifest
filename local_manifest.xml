@@ -26,9 +26,7 @@
            name="kawaii_kernel_sdm845"
            remote="bhavya1245073"
            revision="13" />
-  
-<!--Removals-->
-  <remove-project name="hardware_xiaomi" />
+
   
 <!-- Hardware -->
   <project path="hardware/xiaomi" 
