@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="bhavya1245073" fetch="https://github.com/bhavya1245073"/>
+  <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices"/>
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
@@ -8,25 +8,27 @@
   
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
-           name="device_xiaomi_beryllium1"
-           remote="bhavya1245073"
-           revision="blaze" />
+           name="device_xiaomi_beryllium"
+           remote="Legendleo90"
+           revision="13" />
            
   <project path="device/xiaomi/sdm845-common"
-           name="device_xiaomi_sdm845-common1"
-           remote="bhavya1245073"
-           revision="blaze-13" />
+           name="device_xiaomi_sdm845-common"
+           remote="Legendleo90"
+           revision="rice" />
            
   <project path="vendor/xiaomi"
-           name="beryllium-vendor1"
-           remote="bhavya1245073"
-           revision="main" />
+           name="beryllium-vendor"
+           remote="Legendleo90"
+           revision="13" />
            
   <project path="kernel/xiaomi/sdm845"
-           name="kawaii_kernel_sdm845"
-           remote="bhavya1245073"
-           revision="13" />
+           name="kernel_xiaomi_sdm845"
+           remote="Legendleo90"
+           revision="thirteen" />
 
+<!--Removals-->
+  <remove-project name="hardware_xiaomi" />
   
 <!-- Hardware -->
   <project path="hardware/xiaomi" 
@@ -34,11 +36,11 @@
            remote="ArrowOS-Devices" 
            revision="arrow-13.0" />
   
-<!--Clang-->
+<!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
            name="clang-r450784d" 
            remote="ImSurajxD" 
-           revision="master" /> 
+           revision="master" />
            
 <!--Toolchain-->
   <project path="prebuilts/clang/host/linux-x86/trb_clang"
